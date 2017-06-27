@@ -1,0 +1,11 @@
+.product {
+    height: 825px;
+    width: 900px;
+    margin: 0 auto;
+    overflow: hidden;
+    position: absolute;
+}
+
+#product {
+    position: relative;
+}
