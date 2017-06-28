@@ -38,11 +38,7 @@
     opacity: 0;
 }
 
-/*#super {
-    position: absolute;
-}*/
-
-.super {
+#super {
     position: absolute;
     height: 250px;
     width: 280px;
@@ -50,22 +46,14 @@
     opacity: 0;
 }
 
-/*#fresh {
-    position: absolute;
-}*/
-
-.fresh {
+#fresh {
     position: absolute;
     height: 250px;
     width: 280px;
     opacity: 0;
 }
 
-/*#cta {
-    position: absolute;
-}*/
-
-.cta {
+#cta {
     position: absolute;
     height: 250px;
     width: 280px;
