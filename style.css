@@ -1,6 +1,6 @@
 .container {
     height: 825px;
-    width: 900px;
+    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
     position: absolute;
@@ -12,7 +12,7 @@
 
 #banners {
     position: absolute;
-    left: 273px;
+    left: 400px;
     top: 106px;
     height: 400px;
     width: 500px;
@@ -22,7 +22,18 @@
 #super {
     position: absolute;
     left: 550px;
-    height: 400px;
-    width: 500px;
+    opacity: 0;
+}
+
+#fresh {
+    position: absolute;
+    left: 400px;
+    opacity: 0;
+}
+
+#cta {
+    position: absolute;
+    left: 400px;
+    top: 25px;
     opacity: 0;
 }
