@@ -1,13 +1,24 @@
 .container {
-    height: 825px;
-    width: 1000px;
+    height: 250px;
+    width: 300px;
     margin: 0 auto;
-    overflow: hidden;
-    position: absolute;
+    position: relative;
+    margin: 0 auto;
+    border: 1px solid black;
 }
 
 #product {
-    position: relative;
+    position: absolute;
+    overflow: hidden;
+    height: 250px;
+    width: 300px;
+}
+
+.cup {
+    position: absolute;
+    left: -40px;
+    height: 650px;
+    width: 500px;
 }
 
 #banners {
@@ -16,24 +27,48 @@
     top: 106px;
     height: 400px;
     width: 500px;
+}
+
+.craft {
+    position: absolute;
+    top: -102px;
+    right: 604px;
+    height: 250px;
+    width: 300px;
     opacity: 0;
 }
 
-#super {
+/*#super {
     position: absolute;
-    left: 550px;
+}*/
+
+.super {
+    position: absolute;
+    height: 250px;
+    width: 280px;
+    left: 60px;
     opacity: 0;
 }
 
-#fresh {
+/*#fresh {
     position: absolute;
-    left: 400px;
+}*/
+
+.fresh {
+    position: absolute;
+    height: 250px;
+    width: 280px;
     opacity: 0;
 }
 
-#cta {
+/*#cta {
     position: absolute;
-    left: 400px;
-    top: 25px;
+}*/
+
+.cta {
+    position: absolute;
+    height: 250px;
+    width: 280px;
+    left: 6px;
     opacity: 0;
 }
